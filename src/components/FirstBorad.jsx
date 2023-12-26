@@ -13,20 +13,20 @@ const FirstBoard = ({ icons, handlechoise }) => {
         <div className="flex gap-8">
           <div
             onClick={() => handlechoise(icons[0].name)}
-            className="paper w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] flex justify-center items-center rounded-full bg-white border-[10px] border-blue-600"
+            className="paper w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] flex justify-center items-center rounded-full bg-white border-[10px] border-blue-600 cursor-pointer"
           >
             <img className="w-[70%]" src={icons[0].icon} alt={icons[0].name} />
           </div>
           <div
             onClick={() => handlechoise(icons[1].name)}
-            className="scissors w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] flex justify-center items-center rounded-full bg-white border-[10px] border-yellow-500"
+            className="scissors w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] flex justify-center items-center rounded-full bg-white border-[10px] border-yellow-500 cursor-pointer"
           >
             <img className="w-[70%]" src={icons[1].icon} alt={icons[1].name} />
           </div>
         </div>
         <div
           onClick={() => handlechoise(icons[2].name)}
-          className="rock w-[70px] h-[70px] sm:w-[120px] sm:h-[120px]  flex justify-center items-center rounded-full bg-white border-[10px] border-red-600"
+          className="rock w-[70px] h-[70px] sm:w-[120px] sm:h-[120px]  flex justify-center items-center rounded-full bg-white border-[10px] border-red-600 cursor-pointer"
         >
           <img className="w-[70%]" src={icons[2].icon} alt={icons[2].name} />
         </div>
