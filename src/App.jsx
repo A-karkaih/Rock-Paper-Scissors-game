@@ -124,8 +124,7 @@ function App() {
                 </span>
                 <span
                   style={{ color: "Black" }}
-                  className="absolute top-2 left-2 text-gray-600 cursor-pointer"
-                  onClick={handleClosePopup}
+                  className="absolute top-2 left-2 text-gray-600 cursor-default"
                 >
                   Rules
                 </span>
